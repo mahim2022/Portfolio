@@ -106,6 +106,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactNative",
       fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "gitVersionControl",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true

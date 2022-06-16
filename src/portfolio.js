@@ -46,9 +46,8 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA )"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build Highly Scalable Realtime Node servers"),
+    emoji("⚡ Build Restful APIs")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -110,6 +109,38 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "gitVersionControl",
       fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Azure Cloud DB",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "testing",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "caching",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "microServices-busMQ",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "redis",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "jest",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "chai",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "socket io",
+      fontAwesomeClassname: "fab fa-node"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -136,15 +167,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "69%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -198,6 +229,31 @@ const bigProjects = {
   subtitle:
     "SOME PROJECTS I HAVE BEEN WORKING ON SINCE I STARTED WEB-DEVELOPMENT",
   projects: [
+    {
+      image: require("./assets/images/modPanda.PNG"),
+      projectName: "Alcohol Delivery App",
+      projectDesc:
+        "Full stack customer to bar owner bar app also realtime with socket io",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://modPanda.netlify.app/ "
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/memories.PNG"),
+      projectName: "Memories Photos App",
+      projectDesc: "MERN CRUD Photos app like instaGram with auth and likes",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://thirsty-neumann-c71384.netlify.app "
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/social-media-1446669-1222344.png"),
       projectName: "Social Media Fully Responsive",
